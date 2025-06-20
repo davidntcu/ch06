@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <title>6-3-5 清除浮動類別</title>
+    <style>
+        .div {
+            border-width: 5px;
+            border-style: solid;
+            border-color: darkcyan;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>尚未使用清除浮動clearfix類別</h1>
+    <br>
+    <div class="div">
+        我跑版了
+        <button type="button" class="btn btn-dark float-start text-light">我在浮動</button>
+    </div>
+    <br>
+    <br>
+    <h1>已使用清除浮動clearfix類別</h1>
+    <br>
+    <div class="div clearfix">
+        我沒跑版
+        <button type="button" class="btn btn-dark float-start text-light">我在浮動</button>
+    </div>
+</body>
+
+</html>
